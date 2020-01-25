@@ -1,6 +1,6 @@
 package com.datastructure.array.oned;
 
-import com.datastructure.utilts.FormatUtils;
+import com.datastructure.utilts.ArrayUtils;
 
 public class ArrayCreation {
 
@@ -13,7 +13,7 @@ public class ArrayCreation {
 		for (int i = 0; i < intA.length; i++) {
 			System.out.println(i);
 		}
-		FormatUtils.printLine();
+		ArrayUtils.printLine();
 
 		// Create int array with size
 		int[] B = new int[10];
@@ -27,13 +27,13 @@ public class ArrayCreation {
 		for (int i = 0; i < B.length; i++) {
 			System.out.println(B[i]);
 		}
-		FormatUtils.printLine();
+		ArrayUtils.printLine();
 
 		// Retrieve element from array from position
 		int index = 25;
 		if (index < B.length) {
 			System.out.println(B[index]);
-			FormatUtils.printLine();
+			ArrayUtils.printLine();
 		}
 
 		int keyToFind = 9;
@@ -46,7 +46,7 @@ public class ArrayCreation {
 			}
 		}
 		System.out.println(isPresent);
-		FormatUtils.printLine();
+		ArrayUtils.printLine();
 
 		// delete int 5 from B array
 		int key = 5;
@@ -72,7 +72,7 @@ public class ArrayCreation {
 		for (int i = 0; i < B.length; i++) {
 			System.out.println(B[i]);
 		}
-		FormatUtils.printLine();
+		ArrayUtils.printLine();
 
 	}
 }

@@ -1,9 +1,10 @@
 package com.datastructure.utilts;
 
-public class FormatUtils {
-	
+public class ConsoleLogger {
+
 	public static void printLine() {
 		System.out.println("-------------------------------------");
 	}
+
 
 }
