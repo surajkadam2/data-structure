@@ -24,7 +24,7 @@ public class ArrayUtils {
 	public static void printArrayHighlights(int a[], int first, int second) {
 		for (int i = 0; i < a.length; i++) {
 		if (i == first || i == second) {
-			System.out.print(ANSI_RED + a[i]+ " " + RESET);
+			System.out.print("[" + a[i] + "] ");
 		} else { 
 			System.out.print(a[i]+ " ");
 		}}

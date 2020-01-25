@@ -1,10 +1,13 @@
 package com.datastructure.array.oned;
 
 import com.datastructure.utilts.ArrayUtils;
+import com.datastructure.utilts.ConsoleLogger;
 
 public class ArrayCreation {
 
 	public static void main(String[] args) {
+		
+		ConsoleLogger.outputToFile(ArrayCreation.class);
 
 		// Create int array
 		int[] intA = { 1, 2, 3, 4, 5 };

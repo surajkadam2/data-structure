@@ -1,12 +1,13 @@
 package com.datastructure.array.threed;
 
 import com.datastructure.utilts.ArrayUtils;
+import com.datastructure.utilts.ConsoleLogger;
 
 public class Array2D {
 	
 	public static void main(String[] args) {
 		
-		
+		ConsoleLogger.outputToFile(Array2D.class);
 		// create array
 		int [][] a = {{1,2}, {3,9}};
 		

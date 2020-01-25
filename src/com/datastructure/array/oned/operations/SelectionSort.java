@@ -6,6 +6,8 @@ import com.datastructure.utilts.ConsoleLogger;
 public class SelectionSort {
 
 	public static void main(String[] args) {
+		
+		ConsoleLogger.outputToFile(SelectionSort.class);
 
 		// Algorithm
 
