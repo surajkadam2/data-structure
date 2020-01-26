@@ -20,6 +20,14 @@ public class ArrayUtils {
 		}
 		System.out.println();
 	}
+	
+	public static String getArray(int a[]) {
+		String arraS = "";
+		for (int i = 0; i < a.length; i++) {
+			arraS = arraS + a[i] + " ";
+		}
+		return arraS;
+	}
 
 	public static void printArrayHighlights(int a[], int first, int second) {
 		for (int i = 0; i < a.length; i++) {

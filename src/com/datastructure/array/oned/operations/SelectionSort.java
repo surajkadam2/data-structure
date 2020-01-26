@@ -3,10 +3,14 @@ package com.datastructure.array.oned.operations;
 import com.datastructure.utilts.ArrayUtils;
 import com.datastructure.utilts.ConsoleLogger;
 
+/**
+ * @author suraj
+ *
+ */
 public class SelectionSort {
 
 	public static void main(String[] args) {
-		
+
 		ConsoleLogger.outputToFile(SelectionSort.class);
 
 		// Algorithm
@@ -21,7 +25,7 @@ public class SelectionSort {
 		// 1. Find then min ele in array and place at start
 
 		// asc
-		for (int i = 0; i < a.length-1; i++) {
+		for (int i = 0; i < a.length - 1; i++) {
 			ConsoleLogger.printLine();
 			System.out.println("Pass = " + i);
 			ConsoleLogger.printLine();
@@ -53,7 +57,7 @@ public class SelectionSort {
 				}
 			}
 		}
-		
+
 		ConsoleLogger.printLine();
 		ArrayUtils.printArray(a);
 		ConsoleLogger.printLine();

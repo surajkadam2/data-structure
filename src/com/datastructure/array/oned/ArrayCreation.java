@@ -3,10 +3,14 @@ package com.datastructure.array.oned;
 import com.datastructure.utilts.ArrayUtils;
 import com.datastructure.utilts.ConsoleLogger;
 
+/**
+ * @author suraj
+ *
+ */
 public class ArrayCreation {
 
 	public static void main(String[] args) {
-		
+
 		ConsoleLogger.outputToFile(ArrayCreation.class);
 
 		// Create int array
